@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;/*sem a  margem interna*/
+    box-sizing: border-box;
+}*{
+    margin: 0;
+    padding: 0;/*sem a  margem interna*/
+    box-sizing: border-box;
+}
+
+    *{
+    margin: 0;
+    padding: 0;/*sem a  margem interna*/
+    box-sizing: border-box;
+}
+
+
+.topo{
+    width: 100%;
+    height: 197px;
+    /*background-color: pink;*/  
+    background-image: url(../assets/banneratual.png);
+    background-repeat: no-repeat;/*nao repita*/
+    background-size: contain;/*a img vai fcar dentro do bloco*/
+    background-position: center;
+
+    
+}
+.topo figure{
+    width: 100%;
+    height: 195px;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background:linear-gradient(#f6f6f1,paleturquoise);/*#f6f6f1;*/
+   }
+.menu ul{
+display: flex;
+
+
+}
+.menu ul li{
+    width: 16%;
+    height: 50px;    
+    margin: 0 auto;
+    list-style: none;/*tirou a bolinha do ul*/
+    
+}
+.menu ul li a:hover{
+    width: 100%;
+    height: 50px;    
+    margin: 0 auto;
+    text-decoration: none;
+     color: hotpink;
+    background-color: lightpink;
+}
+.menu ul li a{
+    color: teal;
+}
+.principal{
+    width:100%;
+    height: 1024px;
+    background:linear-gradient(paleturquoise,pink);/*#f6f6f1;*/    
+   
+
+} 
+.principal figure{
+    width: 100%;
+    text-align: center;
+}
+
+
+.principal  h1{
+    width: 100%;
+    height: 45px;
+    color: teal;
+    margin-left: 8px;
+    text-align: center;
+    margin-top:  0 auto;
+  
+}
+.secao{
+    width: 100%;
+  
+    height: auto;
+  
+}
+.bloco{
+    width: 100%;
+    height: 300px;
+    
+    overflow: hidden;
+   
+}
+
+p{          /*formatar todos os paragrafos*/
+    color:black;
+   text-align: justify;
+   /*word-spacing: 4px;*/
+   margin: 10px;
+   margin-right: 2%;
+  margin-left: 1em;
+  text-indent: 45px;
+}
+.subtitulo{
+    color: teal;
+   margin-left: 1em;
+}
+ li{    
+    list-style: none;/*tira a bolinha da lista*/
+    margin-left: 2em; 
+   
+    
+}
+
+
+
+figure img{
+    width: 35%;
+    height: 450px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+   .rodape{
+    width: 100%;
+    height: 140px;
+    color: salmon;  
+   background-image: url(../assets/rodapeatual.png);
+   background-repeat: no-repeat;
+   background-size: 65% 140px;
+   background-color: silver;
+   background-position: right;/*posicionei a direita*/
+
+}
+.rodape i{
+    width: 32%;
+    height: 20px;
+   color: black;
+   margin: 5px;
+  color: white;
+   margin-left: 5px;
+   margin-right: 5px;
+   line-height: 2.2;
+  
+}
+.copy{
+     width: 32%;
+     height: 20px;
+     color: black;
+     margin-bottom: 100px;
+       margin-left: 5px;
+    margin-top: 10px;  
+     line-height: 4.0;
+}

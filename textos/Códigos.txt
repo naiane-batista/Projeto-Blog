@@ -1,0 +1,9 @@
+(EFEITO PRA COLOCAR O MOUSE EM CIMA E EMUDAR A COR DO TEXTO DO MENU)
+
+.menu ol li a:hover{
+    /*hover =passar o mouse por cima*/
+    color: red;
+}
+
+
+

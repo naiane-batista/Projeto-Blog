@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;/*sem a  margem interna*/
+    box-sizing: border-box;/*indica que o tamanho dele é definido pelo seu conteúdo apenas -*/
+}
+
+
+.topo{
+    width: 100%;
+    height: 200px;
+    /*background-color: pink;*/  
+  /*  background-image: url(../assets/banneratual2.png);*/
+    background-repeat: no-repeat;/*nao repita*/
+    background-size: contain;/*a img vai fcar dentro do bloco*/
+    background-position: center;
+   
+
+
+}
+.topo figure{
+    width: 100%; 
+    height: 195px; 
+}
+.topo img{
+    width: 100%;
+    height: 200px;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background:linear-gradient(#f6f6f1,paleturquoise);/*#f6f6f1;*/
+   
+}
+
+
+.menu ul{
+display: flex;
+
+   
+
+}
+.menu ul li{
+    width: 16%;
+    height: 50px;    
+    margin: 0 auto;
+    list-style: none;/*tirou a bolinha do ul*/
+    
+}
+.menu ul li a:hover{
+    width: 100%;
+    height: 50px;    
+    margin: 0 auto;
+    text-decoration: none;
+    color: hotpink;
+    background-color: lightpink;  
+       
+}
+.menu ul li a{
+    color: teal;
+}
+
+
+.principal{
+    width:100%;
+    height: 1110px;
+    background:linear-gradient(paleturquoise,pink);/*#f6f6f1;*/
+
+} 
+.produtos{
+    height: 1800px;
+}
+
+.penteados{
+    height: 1500px;
+    background-color:white;
+}
+.penteados h1{
+    color: teal;
+    text-align: center;
+}
+h2{
+    margin-left: 15px;
+    
+}
+.transicao{
+    height: 2774px;
+    background-color:white; /*powderblue;*/
+}
+.transicao h1{
+    color: teal;
+    text-align: center;
+}
+.gif{
+     color: teal;
+}
+.titulo{
+    color: teal;
+    text-align: center;
+    
+}
+
+.subtitulo{
+    color:rosybrown;
+   margin-left: 2em;
+}
+p{          /*formatar todos os paragrafos*/
+    color:black;
+   text-align: justify;
+   /*word-spacing: 4px;*/
+   margin: 10px;
+   margin-right: 2%;
+  margin-left: 2em;
+  text-indent: 45px;/*deu a margem dos paragrafos*/
+  
+}
+figure{
+    text-align: center;
+}
+
+figure img{
+    width: 35%;
+    height: 300px;
+    background-color:yellow; /*aquamarine;*/
+    margin-left: 10px; 
+    
+  
+}
+
+.secao{
+    width: 100%;;
+    height: 270px;
+    
+    display: flex;
+    padding-top: 10px;
+    padding: 4px;    
+  }
+
+.slideshow{
+   /* width: 40%;
+    height: 300px;
+    margin-right: 20px;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;/*p pegar a tela toda*/
+
+  /*  animation: slide 15s both infinite;
+     -webkit-animation: slide 15s both infinite;
+    -moz-animation: slide 15s both infinite;*/
+   
+    width: 40%;
+    height:250px;
+    
+    
+   
+   /* background-color:pink;/*yellow;*/ 
+    position: relative;
+    overflow: hidden;
+}
+
+.foto{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animacao{
+    25% {
+        opacity: 1;
+        transform:scale(1.1,1.1);
+    }  
+    50%{
+        opacity:0 ;
+    }
+}
+.foto:nth-child(1){
+    
+}
+.foto:nth-child(2){
+    animation-delay: 5s;
+}
+.foto:nth-child(3){
+    animation-delay: 10s;
+}
+.foto:nth-child(4){
+    animation-delay: 15s;
+}
+
+/*@keyframes slide{
+        0%{
+             opacity: 0;
+        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+transition-timing-function: cubic-bezier(0.500, 0.055, 0.675, 0.190);
+            background-image: url(../assets/platinado1.jpg);
+        }
+        35%{
+            background-image: url(../assets/californianas1.jpg);
+        }
+        65%{
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+            background-image: url(../assets/platinado2.jpg);
+        }
+        100%{
+            background-image: url(../assets/californianas2.jpg);
+        }
+    }*/
+
+ .barra-lateral{/*barra lateral do index*/
+    width: 60%;
+    height: 300px;
+    display: flex;
+
+ }
+ .artigo{/*artigo do penteado1*/
+   width: 35%;
+     height: 250px;
+  
+   margin-left: 8px;
+
+  
+   
+ }
+.artigo figure{
+    width: 100%;
+     height: 200px;
+
+       
+     
+
+}
+.artigo figure img{
+     width: 96.4%;
+     height: 100%;
+     margin: 2px;
+   
+     
+      
+}
+
+.cliqueaqui:hover{
+   color: hotpink;
+   background-color:lightpink; 
+   text-decoration: none;
+     
+}
+.cliqueaqui{
+    color:palevioletred;
+}
+   
+
+
+    .rodape{
+    width: 100%;
+    height: 140px;
+    color: salmon;  
+   background-image: url(../assets/rodapeatual.png);
+   background-repeat: no-repeat;
+   background-size: 63% 140px;
+   background-color: silver;
+   background-position: right;/*posicionei a direita*/
+
+}
+.rodape i{
+    width: 32%;
+    height: 20px;
+   color: black;
+   margin: 5px;
+  color: white;
+   margin-left: 5px;
+   margin-right: 5px;
+   line-height: 2.2;
+  
+}
+.copy{
+     width: 32%;
+     height: 20px;
+     color: black;
+     margin-bottom: 100px;
+       margin-left: 5px;
+    margin-top: 10px;  
+     line-height: 4.0;
+}
